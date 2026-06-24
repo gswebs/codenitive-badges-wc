@@ -4,7 +4,7 @@ Tags: woocommerce, badges, product badges, product attributes, ecommerce
 Requires at least: 6.0
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -142,6 +142,10 @@ No. The plugin is lightweight and only loads the necessary badge data.
 * WooCommerce integration.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+
+Fixed Select2 and custom hook field issue
 
 = 1.0.0 =
 

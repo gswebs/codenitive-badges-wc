@@ -3,7 +3,7 @@
 * Plugin Name: Codenitive Badges for WooCommerce
 * Plugin URI:  https://wordpress.org/plugins/codenitive-badges-wc
 * Description: Advanced product badges using attributes, multiple badges, styling, and AJAX preview.
-* Version: 1.0.0
+* Version: 1.0.1
 * Requires at least: 5.6
 * Requires PHP:      7.4
 * Author:            CodeNitive
