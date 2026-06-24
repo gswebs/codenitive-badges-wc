@@ -19,12 +19,13 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
-define('CODENIT_WC_DIR', plugin_dir_path(__FILE__));
+define('CODENIT_WC_BADGES_DIR', plugin_dir_path(__FILE__));
+define( 'CODENIT_WC_BADGES_URL', plugin_dir_url( __FILE__ ) );
 
 // Load classes
-require_once CODENIT_WC_DIR . 'includes/class-gs-badges.php';
-require_once CODENIT_WC_DIR . 'includes/class-gs-settings.php';
-require_once CODENIT_WC_DIR . 'includes/class-gs-term-fields.php';
+require_once CODENIT_WC_BADGES_DIR . 'includes/class-gs-badges.php';
+require_once CODENIT_WC_BADGES_DIR . 'includes/class-gs-settings.php';
+require_once CODENIT_WC_BADGES_DIR . 'includes/class-gs-term-fields.php';
 
 new CODENIT_WC_Settings();
 new CODENIT_WC_Badges();
