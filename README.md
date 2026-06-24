@@ -1,0 +1,1 @@
+GS Badges WC v1.2
